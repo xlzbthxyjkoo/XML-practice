@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<H:BookCatalog xmlns:H="http://cs.skuniv.ac.kr/lecture/xml/yejikoo">
+	<H:Book>
+		<H:Title>Harry Potter</H:Title>
+		<H:Author>J. K. Rowling</H:Author>
+		<H:Year>2001</H:Year>
+		<H:Summary><![CDATA[해리포터 & 론 & 헤르미온느]]></H:Summary>
+	</H:Book>
+	<H:Book>
+		<H:Title>Charlie and the Chocolate Factory</H:Title>
+		<H:Author>Roald Dahl</H:Author>
+		<H:Year>2012</H:Year>
+		<H:Summary><![CDATA[주인공 "찰리"가 초콜릿 공장에서 겪는 이야기"]]></H:Summary>
+	</H:Book>
+</H:BookCatalog>
