@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BookCatalog>
+	<Book>
+		<Title>Harry Potter</Title>
+		<Author>J. K. Rowling</Author>
+		<Year>2001</Year>
+		<Summary><![CDATA[해리포터 & 론 & 헤르미온느]]></Summary>
+	</Book>
+	<Book>
+		<Title>Charlie and the Chocolate Factory</Title>
+		<Author>Roald Dahl</Author>
+		<Year>2012</Year>
+		<Summary><![CDATA[주인공 "찰리"가 초콜릿 공장에서 겪는 이야기"]]></Summary>
+	</Book>
+	<Book>
+		<Title>The Giver</Title>
+		<Author>Lois Lowry</Author>
+		<Year>1993</Year>
+    		<Summary><![CDATA[<>시간여행자에 관한 내용<>]]></Summary>
+	</Book>
+</BookCatalog>
