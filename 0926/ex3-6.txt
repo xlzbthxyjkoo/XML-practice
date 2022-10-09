@@ -1,0 +1,12 @@
+1. FIXED
+-> lang의 속성값이 보인다.
+-> validator에서는 Value for attribute lang of Book is different from default "korean"라는 오류가 발생한다.
+
+2. IMPLIED
+-> lang이 보이지 않는다.
+-> validator에서는  통과된다.
+
+3. REQUIRED
+-> lang이 보이지 않는다.
+-> lang 속성에 값을 주면 오류가 발생하지 않는다.
+-> validator에서는  Element Book does not carry attribute lang라는 오류가 발생한다.
