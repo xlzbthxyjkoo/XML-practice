@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AudioCatalog xmlns="http://cs.skuniv.ac.kr/xml/yjkoo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://cs.skuniv.ac.kr/xml/yjkoo ex4-7.xsd">
+
+    <Cd>
+	<Title> 뉴진스 1집 </Title>
+	<Artist> New Jeans </Artist>
+	<Genre> kpop </Genre>
+	<Released-date> 2022 </Released-date>
+	<Song> Hype Boy </Song>
+	    <PlayTime>
+		<hours> 1 </hours>
+		<minutes> 2 </minutes>
+		<seconds> 30 </seconds>
+	    </PlayTime>
+
+	<Song> Attention </Song>
+	    <PlayTime>
+		<hours> 4 </hours>
+		<minutes> 34 </minutes>
+		<seconds> 44 </seconds>
+	    </PlayTime>
+	<Song> Cookie </Song>
+	    <PlayTime>
+		<hours> 1 </hours>
+		<minutes> 22 </minutes>
+		<seconds> 33 </seconds>
+	    </PlayTime>
+    </Cd>
+
+    <Record>
+	<Title> 뉴진스 2집 </Title>
+	<Artist> New Jeans </Artist>
+	<Genre> kpop </Genre>
+	<Released-date> 2022 </Released-date>
+	<Song> Hype Boy </Song>
+	    <PlayTime>
+		<hours>0</hours>
+		<minutes>3</minutes>
+		<seconds>33</seconds>
+	    </PlayTime>
+	<Song> Attention </Song>
+	    <PlayTime>
+		<hours>0</hours>
+		<minutes>4</minutes>
+		<seconds>32</seconds>
+	    </PlayTime>
+
+	<Song> Cookie </Song>
+	    <PlayTime>
+		<hours>0</hours>
+		<minutes>1</minutes>
+		<seconds>23</seconds>
+	    </PlayTime>
+    </Record>
+    <Mp3>
+	<Title> 뉴진스 3집 </Title>
+	<Artist> New Jeans </Artist>
+	<Genre> kpop </Genre>
+	<Released-date> 2022 </Released-date>
+	<Song> Hype Boy </Song>
+	    <PlayTime>
+		<hours>3</hours>
+		<minutes>3</minutes>
+		<seconds>2</seconds>
+	    </PlayTime>
+	<Song> Attention </Song>
+	    <PlayTime>
+		<hours>3</hours>
+		<minutes>2</minutes>
+		<seconds>1</seconds>
+	    </PlayTime>
+
+	<Song> Cookie </Song>
+	    <PlayTime>
+		<hours>1</hours>
+		<minutes>1</minutes>
+		<seconds>1</seconds>
+	    </PlayTime>
+    </Mp3>
+</AudioCatalog>
+

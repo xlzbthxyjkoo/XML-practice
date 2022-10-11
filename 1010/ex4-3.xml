@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<BookCatalog xmlns="http://cs.skuniv.ac.kr/xml/yjkoo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://cs.skuniv.ac.kr/xml/yjkoo ex4-3.xsd">
+	<Book>
+		<Title>Harry Potter 1</Title>
+		<Author>J. K. Rowling</Author>
+		<Year>2001</Year>
+	</Book>
+	<Book>
+		<Title>Charlie and the Chocolate Factory</Title>
+		<Author>Roald Dahl</Author>
+		<Year>2012</Year>
+	</Book>
+	<Book>
+		<Title>The Giver</Title>
+		<Author>Lois Lowry</Author>
+		<Year>1993</Year>
+	</Book>
+</BookCatalog>
