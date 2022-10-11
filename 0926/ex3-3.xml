@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE BookCatalog [
+	<!ELEMENT BookCatalog (Book*)>  <!-- BookCatalog의 하위요소 Book 여러개 -->
+	<!ELEMENT Book ((BookCode | Title), CoAuthor, Year, Summary)>
+	<!ELEMENT BookCode (#PCDATA)>
+	<!ELEMENT Title (#PCDATA)>
+	<!ELEMENT Author (#PCDATA)>
+	<!ELEMENT CoAuthor (#PCDATA | Author)*>
+	<!ELEMENT Year (#PCDATA)>
+	<!ELEMENT Summary ANY>
+]>
+<BookCatalog>
+	<Book>
+		<Title>Harry Potter 1</Title>
+		<CoAuthor>
+			Author: <Author>J. K. Rowling</Author>
+		</CoAuthor>
+		<Year>2001</Year>
+		<Summary>anything</Summary>
+	</Book>
+	<Book>
+		<BookCode>20</BookCode>
+		<CoAuthor>
+			Author: <Author>Roald Dahl</Author>
+			Author: <Author>yj</Author>
+		</CoAuthor>
+		<Year>2012</Year>
+		<Summary>anything</Summary>
+	</Book>
+	<Book>
+		<Title>The Giver</Title>
+
+		<CoAuthor>
+			Author:  <Author>Lois Lowry</Author>
+			Author: <Author>yj</Author>
+		</CoAuthor>
+		<Year>1993</Year>
+		<Summary>anything</Summary>
+	</Book>
+</BookCatalog>
