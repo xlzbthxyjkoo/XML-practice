@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BookCatalog [
+	<!ELEMENT BookCatalog (Book*)>
+	<!ELEMENT Book ( (Title | BookCode), CoAuthor, Price, Year, Summary)> <!-- 선언 순서와 사용 순서가 같아야함!! 주의 -->
+	<!ELEMENT Title (#PCDATA)>
+	<!ELEMENT BookCode (#PCDATA)>
+	<!ELEMENT Author (#PCDATA)>
+	<!ELEMENT CoAuthor (#PCDATA | Author)*>
+	<!ELEMENT Year (#PCDATA)>
+	<!ELEMENT Summary ANY>
+	<!ELEMENT Price (#PCDATA)>
+	<!ATTLIST Book code ID #IMPLIED>
+	<!ATTLIST Price unit (원 | 달러 | 엔) #IMPLIED>
+	<!ENTITY nine "YejiKoo">
+]>
+<BookCatalog>
+	<Book>
+		<Title>Harry Potter</Title>
+		<CoAuthor>
+			주저자: <Author> J. K. Rowling </Author>
+			공저자: <Author> &nine; </Author>
+		</CoAuthor>
+		<Price unit="원"> 25000 </Price>
+		<Year>2001</Year>
+		<Summary><![CDATA[해리포터 & 론 & 헤르미온느]]></Summary>
+	</Book>
+	<Book>
+		<BookCode>Harry Potter</BookCode>
+		<CoAuthor>
+			주저자: <Author> J. K. Rowling </Author>
+			공저자: <Author> &nine; </Author>
+		</CoAuthor>
+		<Price unit="달러"> 25 </Price>
+		<Year>2001</Year>
+		<Summary><![CDATA[해리포터 & 론 & 헤르미온느]]></Summary>
+	</Book>
+</BookCatalog>
