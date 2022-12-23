@@ -1,0 +1,26 @@
+<html>
+<head>
+</head>
+<body>
+<p> 실습 #1 Child 요소 접근하기 </p>
+    <script language="JavaScript">
+        var xmldoc = new ActiveXObject("MSXML.DOMDocument");
+
+        var simpleElement = xmldoc.createElement("simple");
+        var nameElement = xmldoc.createElement("name");
+        var firstElement = xmldoc.createElement("first");
+        var lastElement = xmldoc.createElement("last");
+        var kisuText = xmldoc.createTextNode("기수")
+        var kimText = xmldoc.createTextNode("김");
+
+        lastElement.appendChild(kimText);
+        firstElement.appendChild(kisuText);
+        nameElement.appendChild(firstElement);
+        nameElement.appendChild(lastElement);
+        simpleElement.appendChild(nameElement);
+        xmldoc.documentElement = simpleElement;
+
+        alert(xmldoc.xml);
+    </script>
+</body>
+</html>
