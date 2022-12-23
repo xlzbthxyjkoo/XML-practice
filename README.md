@@ -1,5 +1,5 @@
 # XML-practice
-'22 웹정보 실습 정리  
+'22 웹정보 실습 제출물 주차별 정리입니다.
 #### XSLT Transformation 1 : [link][XSLT Transformation Online Tool]
 [XSLT Transformation Online Tool]: https://www.online-toolz.com/tools/xslt-transformation.php
 #### XSLT Transformation 2 : [link][XSLT Transformation Online Tool2]
