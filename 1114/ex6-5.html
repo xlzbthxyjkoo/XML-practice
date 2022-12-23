@@ -1,0 +1,25 @@
+<html>
+<head>
+   <p> 실습 #1 Child 요소 접근하기</p>
+   <script language="JavaScript">
+var xmldoc = new ActiveXObject("MSXML.DOMDocument");
+xmldoc.async = false;
+xmldoc.load("names2.xml");
+      xmlErr = xmldoc.parseError;
+      if (xmlErr.errorCode != 0 )
+         alert("Error!, " + xmlErr.reason);
+      else
+         alert("Success!");
+
+//getElementsByTagName
+var nodes = xmldoc.getElementsByTagName("last");
+for(var i = 0 ; i < nodes.length ; i++ )
+alert(nodes[i].firstChild.nodeValue);
+
+//selectNodes
+var nodes = xmldoc.selectNodes("//last");
+for(var i = 0 ; i < nodes.length ; i++ )
+alert(nodes[i].firstChild.nodeValue);
+</script>
+</head>
+</html>
