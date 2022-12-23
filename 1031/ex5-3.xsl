@@ -25,11 +25,44 @@
 		<xsl:apply-templates select = "/제품/핸드폰"/>
 	</TBODY>
 	</TABLE>
+	<TABLE align="center" BORDER="0" cellpadding="5" cellspacing="2">
+	<THEAD>
+	<TR>
+		<TH bgcolor="#0365B1"><font color="white">모델명</font></TH>
+		<TH bgcolor="#0365B1"><font color="white">통신사</font></TH>
+		<TH bgcolor="#0365B1"><font color="white">구입형태</font></TH>
+		<TH bgcolor="#0365B1"><font color="white">제조사</font></TH>
+		<TH bgcolor="#0365B1"><font color="white">색상</font></TH>
+		<TH bgcolor="#0365B1"><font color="white">판매량</font></TH>
+		<TH bgcolor="#0365B1"><font color="white">가격</font></TH>
+	</TR>
+	</THEAD>
+	<TBODY>
+		<xsl:apply-templates select = "/제품/핸드폰['신규가입']"/>
+	</TBODY>
+	</TABLE>
+	<TABLE align="center" BORDER="0" cellpadding="5" cellspacing="2">
+	<THEAD>
+	<TR>
+		<TH bgcolor="#0365B1"><font color="white">모델명</font></TH>
+		<TH bgcolor="#0365B1"><font color="white">통신사</font></TH>
+		<TH bgcolor="#0365B1"><font color="white">구입형태</font></TH>
+		<TH bgcolor="#0365B1"><font color="white">제조사</font></TH>
+		<TH bgcolor="#0365B1"><font color="white">색상</font></TH>
+		<TH bgcolor="#0365B1"><font color="white">판매량</font></TH>
+		<TH bgcolor="#0365B1"><font color="white">가격</font></TH>
+	</TR>
+	</THEAD>
+	<TBODY>
+		<xsl:apply-templates select = "/제품/핸드폰[가격 &lt; 250000]"/>
+	</TBODY>
+	</TABLE>
     </BODY>
     </HTML>
 </xsl:template>
 
-<xsl:template match = "/제품/핸드폰">
+<xsl:template match = "/제품/핸드폰"
+>
 	<TR>
 	<TD bgcolor="#DEE3EF"><p align="center" style="margin-top:3px;"><xsl:value-of select="모델명"/></p></TD>
 	<TD bgcolor="#DEE3EF"><p align="center" style="margin-top:3px;"><xsl:value-of select="통신사"/></p></TD>
